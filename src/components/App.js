@@ -90,14 +90,14 @@ const Menu = () => {
     }
   };
   return (
-    <div id="menu">
+    <div id="main">
       <h1>Our Menu</h1>
 
       <div>
-        <button onClick={() => onFilter("all")}>All</button>
-        <button onClick={() => onFilter("breakfast")}>Breakfast</button>
-        <button onClick={() => onFilter("lunch")}>Lunch</button>
-        <button onClick={() => onFilter("shakes")}>Shakes</button>
+        <button id="filter-btn-0" onClick={() => onFilter("all")}>All</button>
+        <button id="filter-btn-1" onClick={() => onFilter("breakfast")}>Breakfast</button>
+        <button id="filter-btn-2" id="filter-btn-3" onClick={() => onFilter("lunch")}>Lunch</button>
+        <button id="filter-btn-3" onClick={() => onFilter("shakes")}>Shakes</button>
       </div>
 
       <div>
