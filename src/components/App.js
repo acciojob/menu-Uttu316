@@ -5,7 +5,7 @@ import Menu from "./Menu"
 
 import '../styles/App.css';
 
-const allCategories = ["all","Breakfast","Lunch","Shakes"]
+const allCategories = ["all","breakfast","lunch","shakes"]
 // const allCat = items.map(item=>item.category)
 // const tempSet = new Set(allCat)
 // let tempArr = [...tempSet]
